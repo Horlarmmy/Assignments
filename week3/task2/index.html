@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML CSS Register Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form class="signup-form" action="/success.html" method="post">
+
+      <!-- form header -->
+      <div class="form-header">
+        <h1>Create Account</h1>
+      </div>
+
+      <!-- form body -->
+      <div class="form-body">
+
+        <!-- Firstname and Lastname -->
+        <div class="horizontal-group">
+          <div class="form-group left">
+            <label for="firstname" class="label-title">First name </label>
+            <input type="text" id="firstname" class="form-input" placeholder="enter your first name" required="required" />
+          </div>
+          <div class="form-group right">
+            <label for="lastname" class="label-title">Last name</label>
+            <input type="text" id="lastname" class="form-input" placeholder="enter your last name" />
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+          <label for="email" class="label-title">Email</label>
+          <input type="email" id="email" class="form-input" placeholder="enter your email" required="required">
+        </div>
+        
+        <!-- Phone number -->
+        <div class="form-group">
+          <label for="phone" class="label-title">Phone Number</label>
+          <input type="" id="phone" class="form-input" placeholder="123-456-7890" required="required">
+        </div>
+        
+        <!-- Gender and DOB -->
+        <div class="horizontal-group">
+          <div class="form-group left">
+            <label class="label-title">Gender:</label>
+              <select name="gender">
+	              <option value="none" selected>Select Gender</option>
+	              <option value="male">Male</option>
+	              <option value="female">Female</option>
+	              <option value="other">other</option>
+                </select>
+          </div>
+          <div class="form-group right">
+            <label class="label-title">Date of Birth: </label>
+              <input type="date" id="birthday" name="birthday">
+            
+          </div>
+        </div>
+            
+          <!-- Favourite colour -->
+        <div class="form-group">
+          <label for="colour" class="label-title">Favourite Colour</label>
+          <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        </div>
+        </div>
+      <!-- form-footer -->
+      <div class="form-footer">
+        <button type="submit" class="btn" <a href="success.html">Create</a></button>
+      </div>
+    </form>
+  </body>
+</html>
