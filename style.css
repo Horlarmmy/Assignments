@@ -1,0 +1,21 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  height: 180px;
+  width: 300px;
+}
+
+.pic-container {
+  width: 55%;
+  margin: auto;
+  border: 5px solid greenyellow;
+}
+
+.pic-slide {
+  display: flex;
+  width: 100%;
+}
